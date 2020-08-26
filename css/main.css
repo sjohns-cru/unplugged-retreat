@@ -86,6 +86,169 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*****BASE HEADER/FOOTER STYLES*****/
+header, footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/*****HEADER STYLES*****/
+header {
+
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.header-divider {
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*****MOBIE STYLES-HOMEPAGE*****/
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+main .content-wrapper {
+
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside .content-wrapper {
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+section .content-wrapper {
+
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.fontawesome-icon {
+
+}
+
+.features-items-description {
+
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+/*****FOOTER*****/
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+.footer-content {
+
+}
+
+address .contact {
+
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyright {
+
+}
+
+
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +423,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
