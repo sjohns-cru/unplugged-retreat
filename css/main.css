@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*****BASE HEADER/FOOTER STYLES*****/
+/*****BASE HEADER - FOOTER STYLES*****/
 header, footer {
   display: flex;
   justify-content: space-around;
@@ -95,19 +95,11 @@ header, footer {
 }
 
 /*****HEADER STYLES*****/
-header {
-
-}
-
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-.header-divider {
-
 }
 
 header nav {
@@ -124,6 +116,8 @@ header nav ul {
 }
 
 /*****MOBIE STYLES-HOMEPAGE*****/
+
+/**HERO AREA**/
 .hero-area {
   display: flex;
   justify-content: center;
@@ -135,6 +129,7 @@ main .content-wrapper {
 
 }
 
+/**ASIDE**/
 aside {
   display: flex;
   justify-content: center;
@@ -142,44 +137,21 @@ aside {
   flex-flow: row wrap;
 }
 
-aside .content-wrapper {
-
-}
-
-.form-description {
-
-}
-
-.form {
-
-}
-
+/**FEATURES**/
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
-section .content-wrapper {
-
-}
-
-.features-items {
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.fontawesome-icon {
-
-}
-
-.features-items-description {
-
-}
-
+/**REVIEWS**/
 .reviews {
   display: flex;
   justify-content: center;
@@ -187,7 +159,9 @@ section .content-wrapper {
   flex-flow: row wrap;
 }
 
-
+/*=============================================================================
+  ABOUT Page
+  ============================================================================*/
 .mission {
   display: flex;
   justify-content: center;
@@ -202,6 +176,9 @@ section .content-wrapper {
   flex-flow: row wrap;
 }
 
+/*=============================================================================
+  FAQ Page
+  ============================================================================*/
 .faq {
   display: flex;
   justify-content: center;
@@ -216,38 +193,17 @@ section .content-wrapper {
   flex-flow: row wrap;
 }
 /*****FOOTER*****/
-footer {
-
-}
-
-footer .content-wrapper {
-
-}
-
-.footer-content {
-
-}
-
-address .contact {
-
-}
-
-.social {
+footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.social-icons {
+footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
-.copyright {
-
-}
-
 
 
 /* ==========================================================================
