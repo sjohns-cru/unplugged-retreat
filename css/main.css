@@ -95,6 +95,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul, ol {
@@ -111,11 +112,14 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.88em;
+  font-weight: lighter;
 }
 
 h3, h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.13em;
+  font-weight: lighter;
+  margin: 20px 0;
 }
 
 p {
@@ -145,6 +149,7 @@ address {
 
 /*****BASE HEADER - FOOTER STYLES*****/
 header, footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -167,6 +172,7 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  background: #3a3a3a;
 }
 
 header nav {
@@ -184,11 +190,16 @@ header nav ul {
 }
 
 footer {
+  text-align: center;
   flex-direction: column;
 }
 
 footer p {
   margin: 0;
+}
+
+footer h4 {
+  text-align: center;
 }
 
 footer .content-wrapper {
@@ -223,6 +234,16 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/hero-image.jpg');
+  background-position: bottom;
+  background-size: cover;
+}
+
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 /**ASIDE**/
@@ -231,6 +252,33 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /**FEATURES**/
@@ -238,6 +286,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/features-background.jpg');
 }
 
 .features h2 {
@@ -246,6 +295,7 @@ aside {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 .features article {
@@ -265,10 +315,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-}
-
-.reviews h2 {
-  margin-bottom: 40px;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -325,6 +372,7 @@ aside {
 .faq-content {
   margin-bottom: 50px;
 }
+
 
 /* ==========================================================================
    Helper classes
