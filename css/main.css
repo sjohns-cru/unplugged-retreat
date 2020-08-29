@@ -601,7 +601,11 @@ footer .copyright {
    width: 45%;
  }
 
- .contact-section .content-wrapper h2 {
+ .map figure {
+    padding-bottom: 45%;
+}
+
+  .contact-section .content-wrapper h2 {
    width: 80%;
  }
 
@@ -675,6 +679,10 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
  ========================================================================== */
 .mission h2 {
   width: 90%;
+}
+
+.map figure {
+   padding-bottom: 38%;
 }
 
  /* ==========================================================================
