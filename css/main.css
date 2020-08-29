@@ -129,7 +129,8 @@ p {
 }
 
 img {
-
+    width: 100%;
+    margin: 0;
 }
 
 figure {
@@ -166,6 +167,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -235,8 +244,11 @@ footer .copyright {
   justify-content: center;
   flex-flow: row wrap;
   background-image: url('../img/hero-image.jpg');
-  background-position: bottom;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-color: #333;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -287,6 +299,10 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
   background-image: url('../img/features-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
 }
 
 .features h2 {
