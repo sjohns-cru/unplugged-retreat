@@ -326,6 +326,11 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size:  3.75em;
+  margin-bottom: 40px;
+}
+
 /**REVIEWS**/
 .reviews {
   display: flex;
